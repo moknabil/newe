@@ -1,0 +1,34 @@
+body,html{padding: 0; margin: 0; }
+
+#page1{background-color: rgb(25, 0, 0); height: 100vh; box-sizing: border-box; margin: 0; padding: 1px; text-align: center; position: relative;}
+#page2{ background-color: rgb(0, 5, 29);   height: 100vh; box-sizing: border-box; margin: 0; padding: 1px; text-align: center;}
+
+#page1 h1{color: rgb(255, 122, 117); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-transform: capitalize;}
+#nav1{position: absolute; color: wheat; bottom: 0; right: 0; background-color: yellow; margin: 80px;}
+
+.biggrid{display: grid; grid-template-columns:60rem auto; 
+    grid-template-rows: repeat(2,300px); margin: 20px ; gap: 20px; }
+
+ #page1 .leftd{background-color: rgb(153, 51, 51); grid-row: 1/3; grid-column: 1/3; position: relative;
+ box-shadow: rgb(255, 0, 0) 0px 0px 20px; outline: 3px solid rgb(128, 0, 0);
+ background-image: url(tag.jpg); background-repeat: no-repeat; background-size: cover;}
+#page1 .ritd{background-color: rgb(255, 126, 126); grid-row: 1/2;}
+#page1 .ritdd{background-color: rgb(255, 126, 126); grid-row: 2/3;}
+
+ #page2 .leftd{background-color: rgb(51, 56, 153); grid-row: 1/3; grid-column: 1/3; position: relative;
+ box-shadow: rgb(0, 106, 255) 0px 0px 20px; outline: 3px solid rgb(0, 43, 128);
+ background-image: url(tag.jpg); background-repeat: no-repeat; background-size: cover;}
+ #page2 .ritd{background-color: rgb(0, 76, 255); grid-row: 1/2;}
+#page2 .ritdd{background-color: rgb(0, 106, 255); grid-row: 2/3; }
+.text1{overflow:hidden; width: 65rem;}
+.book{display: flex;}
+.text1 .book{animation: goo 5s ease-in-out infinite ; position: relative;}
+@keyframes goo{
+   0%{left:0;}
+   20%{left: -100%;}
+   25%{left: -100%;}
+   40%{left:-200% ;}
+   45%{left: -200%;}
+   
+
+

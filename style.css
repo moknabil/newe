@@ -1,0 +1,33 @@
+html,body{margin: 0; width:100vw; padding: 0;  overflow: ;}
+a{text-decoration: none;}
+#bg{ object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.9) contrast(1.2) blur(5px);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;}
+#all{ position: relative; width: 100vw; height: auto; display: flex; justify-content: space-around; align-items: center;  box-sizing: border-box; padding: 60px;}
+
+#all a{width: 200px; height: 200px;  text-align: center; transition: 0.5s; cursor: pointer; position: relative; mix-blend-mode: screen; }
+#all img{width: 100%;  height: 100%; object-fit: cover;}
+.user1{border: 2px solid rgb(0, 141, 113);}
+.user2{border: 2px solid rgb(129, 56, 0);}
+.user3{border: 2px solid rgb(0, 72, 124);}
+.user4{border: 2px solid rgb(138, 0, 0);}
+
+#all a:hover{width: 250px; height: 250px; mix-blend-mode: normal;}
+embed{background-color: cyan;}
+
+h1{ color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-transform: capitalize;}
+.user1 h1{color: teal;}
+.user2 h1{color: orangered;}
+.user3 h1{color: rgb(0, 179, 255);}
+.user4 h1{color: red;}
+.hov{text-align: center;}
+.nav{width: 200px; ;background-color: aqua; width: 100vw; display: flex; justify-content: center; padding: 10px;}
+.con h1{background-color: chartreuse; margin: 0;}
+.nav ul{background-color: brown; margin: 0; display: none;}
+
+.con  ~ .bb{display: block;}

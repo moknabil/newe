@@ -1,0 +1,16 @@
+body,html,*{margin: 0; padding: 0; text-decoration: none;}
+body{ background-color: rgb(0, 25, 0); text-align: center;}
+.hd1{ color: rgb(54, 164, 66); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-transform: uppercase; margin: 20px; }
+
+.biggrid{display: grid; grid-template-columns:65rem auto; 
+    grid-template-rows: repeat(2,300px); margin: 20px ; gap: 20px; }
+
+.leftd{background-color: rebeccapurple; grid-row: 1/3; grid-column: 1/3; position: relative;
+box-shadow: rgb(54, 164, 66) 0px 0px 20px; outline: 3px solid green;
+ background-image: url(tag.jpg); background-repeat: no-repeat; background-size: cover;}
+.ritd{background-color: rgb(126, 255, 173); grid-row: 1/2;}
+.ritdd{background-color: rgb(126, 255, 173); grid-row: 2/3;}
+.text1{position: absolute; bottom: 0; padding: 20px; text-align: center; color: white; background-image: linear-gradient( rgb(0, 0, 0,0), rgb(1, 86, 18)); height: 70%; width: 100%; 
+box-sizing: border-box;}
+p{position: absolute; bottom: 0; margin: 20px; font-family: sans-serif;  color: rgb(126, 255, 173); }
+
